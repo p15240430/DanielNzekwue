@@ -27,20 +27,22 @@ of page is smaller than 500px then background baby blue*/
 		background-color: lightblue;
 	}
 	}
-	
+/* this makes the rows responsive on tablets and mobile phones*/
 @media screen and (max-width: 600px) {
     .flex-row1 .flex-row2 .flex-row3 {
         width: 100%;
     }
 }	
-
+/* navigation resizing*/
 @media screen and (max-width: 600px){
     ul.topnav li.right, 
     ul.topnav li {
     	float: none;
 	}
 }
-
+/* this is the navigation bar, given a dark grey colour. it overflow is hidden so theres
+no overlaps of boxes or text, each text is displayed on a block white white text
+whilst it navigation bar also has hover features*/
 ul.topnav {
     list-style-type: none;
     margin: 0;
@@ -74,8 +76,8 @@ ul.topnav li.right {
 	}
 
 
-
-/*for pictures page*/
+/*for pictures page used to contain my images, given it the direction of row so it in a row.
+i've the displayed the flex box giving it a margin of 10px so theres spaces between the images */
 
 .flex-row1 {
   display: flex;
@@ -109,7 +111,7 @@ div.flex-row3{
   text-align: center;
   line-height: 75px;
    }
-
+/* i have nested the gallery div tags so that it remains tidy and there not multiple tags*/
 div.gallery img, div.gallery1 img, div.gallery2 img, div.gallery3 img, div.gallery4 img, div.gallery5 img {
   width:300px;
   height: auto;
@@ -128,6 +130,8 @@ div.gallery img, div.gallery1 img, div.gallery2 img, div.gallery3 img, div.galle
   position:relative;
   width: 50%;
 }
+
+/* hover over image effect*/
 .gallery:hover .middle, .gallery1:hover .middle, .gallery2:hover .middle, .gallery3:hover .middle, .gallery4:hover .middle, .gallery5:hover .middle{
 	opacity: 1;
 }

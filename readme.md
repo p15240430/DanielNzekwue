@@ -11,3 +11,6 @@
 #links are working 
 #i have validated all files 
 #videos page is complete
+#i had to make a new repository because i was having problems with pushing my website onto github 
+#i have a screenshot of evidence of my previous repository which is in my images folder called "previous repository"
+#i made appropriate comments on my stylesheets

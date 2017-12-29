@@ -3,17 +3,16 @@ body {
  background: white;/* i made the index page have a white background*/
 }
 /* made sure header and paragraphs are centered and given family font  */
-	h1{ 
+h1{ 
 		font-family: Georgia;
 		text-align:center;
-}
- 
- 	p{
+		}
+ p{
  		text-align:center;
- 	}
- 	h3{
+		}
+ h3{
  		text-align:center;
- 	}
+		}
 	
 /* this is for the mobile resizing of the map so it fitted well being responsive for phones*/
 @media only screen and (max-width:500px) {                  
