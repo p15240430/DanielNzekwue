@@ -1,0 +1,153 @@
+body {
+ 
+ background: black;/* i made the index page have a black background*/
+}
+
+/* made sure header and paragraphs are centered and given appropriate font colours*/
+p{
+	color: white;
+}
+h1{
+	color: white;
+	text-align: center;
+}
+
+/* this is for the mobile resizing of the gallery images so it fitted well being responsive for phones*/
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .gallery img, .gallery1 img, .gallery2 img, .gallery3 img, .gallery4 img, .gallery5 img{
+    width:100%;
+  }
+}
+
+/* this checks to see it the website is responsive when becoming smaller, if width
+of page is smaller than 500px then background baby blue*/
+@media only screen and (max-width:500px){
+	body{
+		background-color: lightblue;
+	}
+	}
+	
+@media screen and (max-width: 600px) {
+    .flex-row1 .flex-row2 .flex-row3 {
+        width: 100%;
+    }
+}	
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {
+    	float: none;
+	}
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	}
+
+ul.topnav li {
+	float: left;
+	}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	}
+
+ul.topnav li a:hover:not(.active) {
+	background-color: #111;
+	}
+
+ul.topnav li a.active {
+	background-color: #4CAF50;
+	}
+
+ul.topnav li.right {
+	float: right;
+	}
+
+
+
+/*for pictures page*/
+
+.flex-row1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+div.flex-row1{
+  margin: 10px;
+  text-align: center;
+  line-height: 75px
+   }
+
+  .flex-row2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+div.flex-row2{
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+   }
+   
+  .flex-row3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+div.flex-row3{
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+   }
+
+div.gallery img, div.gallery1 img, div.gallery2 img, div.gallery3 img, div.gallery4 img, div.gallery5 img {
+  width:300px;
+  height: auto;
+}
+
+
+/* hover over image effect*/
+.gallery:hover .img, .gallery1:hover .img, .gallery2:hover .img, .gallery3:hover .img, .gallery4:hover .img, .gallery5:hover .img{
+	opacity: 0.3;
+}
+.gallery, .gallery1, .gallery2, .gallery3, .gallery4, .gallery5{
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  position:relative;
+  width: 50%;
+}
+.gallery:hover .middle, .gallery1:hover .middle, .gallery2:hover .middle, .gallery3:hover .middle, .gallery4:hover .middle, .gallery5:hover .middle{
+	opacity: 1;
+}
+
+.middle{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+ 
+

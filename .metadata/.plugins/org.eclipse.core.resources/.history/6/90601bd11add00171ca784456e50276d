@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Holiday Insight</title>
+	<link rel="stylesheet" href="styles-complete.css">
+	<!-- Get Google web fonts: -->
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+
+<body>
+	<h1>Welcome to Holiday Insight</h1>
+</body>
+
+</html>
